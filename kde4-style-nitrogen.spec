@@ -1,6 +1,6 @@
 %define name	kde4-style-nitrogen
 %define version	3.1.4
-%define release	%mkrel 1
+%define release	%mkrel 2
 %define Summary	Window decoration
 
 Summary:	%Summary
@@ -13,8 +13,8 @@ Group:		Graphical desktop/KDE
 URL:		http://www.kde-look.org/content/show.php/Nitrogen?content=99551
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdebase4-workspace-devel
-Requires:	 kdebase4-runtime
-
+Requires:	kdebase4-runtime
+Conflicts:	kdebase4-runtime => 1:4.3.70
 
 %description
 The Nitrogen window decoration is a fork of the oxygen/ozone
