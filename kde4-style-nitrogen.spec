@@ -1,6 +1,6 @@
 %define name	kde4-style-nitrogen
-%define version	3.1.4
-%define release	%mkrel 2
+%define version	3.2.0
+%define release	%mkrel 1
 %define Summary	Window decoration
 
 Summary:	%Summary
