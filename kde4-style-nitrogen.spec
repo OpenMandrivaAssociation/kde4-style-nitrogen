@@ -1,5 +1,5 @@
 %define name	kde4-style-nitrogen
-%define version	3.2.3
+%define version	3.3.0
 %define release	%mkrel 1
 %define Summary	Window decoration
 
@@ -14,7 +14,6 @@ URL:		http://www.kde-look.org/content/show.php/Nitrogen?content=99551
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime
-Conflicts:	kdebase4-runtime => 1:4.3.70
 
 %description
 The Nitrogen window decoration is a fork of the oxygen/ozone
@@ -53,3 +52,4 @@ is particularly useful when the no-border option is selected.
 
 %clean
 %__rm -rf %{buildroot}
+
