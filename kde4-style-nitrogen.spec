@@ -53,3 +53,54 @@ is particularly useful when the no-border option is selected.
 %clean
 %__rm -rf %{buildroot}
 
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 3.3.3-2mdv2011.0
++ Revision: 612550
+- the mass rebuild of 2010.1 packages
+
+* Sat Mar 13 2010 John Balcaen <mikala@mandriva.org> 3.3.3-1mdv2010.1
++ Revision: 518760
+- Update to 3.3.3
+
+* Sun Jan 31 2010 Funda Wang <fwang@mandriva.org> 3.3.2-1mdv2010.1
++ Revision: 498682
+- update to new version 3.3.2
+
+* Sat Dec 05 2009 John Balcaen <mikala@mandriva.org> 3.3.1-1mdv2010.1
++ Revision: 473650
+- Update to 3.3.1
+
+* Sat Nov 14 2009 John Balcaen <mikala@mandriva.org> 3.3.0-2mdv2010.1
++ Revision: 466043
+- Rebuild
+
+* Thu Nov 05 2009 Ahmad Samir <ahmadsamir@mandriva.org> 3.3.0-1mdv2010.1
++ Revision: 460519
+- Update to 3.3.0
+
+* Mon Sep 28 2009 John Balcaen <mikala@mandriva.org> 3.2.3-1mdv2010.0
++ Revision: 450494
+- Update to 3.2.3
+
+* Mon Sep 28 2009 John Balcaen <mikala@mandriva.org> 3.2.2-1mdv2010.0
++ Revision: 450413
+- Update to 3.2.2
+
+* Sun Sep 27 2009 John Balcaen <mikala@mandriva.org> 3.2.1-1mdv2010.0
++ Revision: 449676
+- Update to 3.2.1
+
+* Sat Sep 26 2009 John Balcaen <mikala@mandriva.org> 3.2.0-1mdv2010.0
++ Revision: 449392
+- Update to 3.2.0
+
+* Mon Sep 21 2009 John Balcaen <mikala@mandriva.org> 3.1.4-2mdv2010.0
++ Revision: 446062
+- Add Conflicts: nitrogen will be the future oxygen theme on kde 4.4.x
+
+* Sun Sep 20 2009 John Balcaen <mikala@mandriva.org> 3.1.4-1mdv2010.0
++ Revision: 446022
+- import kde4-style-nitrogen
+
