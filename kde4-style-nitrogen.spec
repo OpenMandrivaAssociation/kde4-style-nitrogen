@@ -10,7 +10,7 @@ Release:	%release
 Source0:	http://www.kde-look.org/CONTENT/content-files/99551-kde4-windeco-nitrogen-%{version}-Source.tar.gz
 License:	GPLv2
 Group:		Graphical desktop/KDE
-URL:		http://www.kde-look.org/content/show.php/Nitrogen?content=99551
+URL:		https://www.kde-look.org/content/show.php/Nitrogen?content=99551
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime
