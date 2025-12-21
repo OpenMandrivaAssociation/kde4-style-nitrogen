@@ -12,6 +12,7 @@ License:	GPLv2
 Group:		Graphical desktop/KDE
 URL:		https://www.kde-look.org/content/show.php/Nitrogen?content=99551
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime
 
